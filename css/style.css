@@ -1,0 +1,113 @@
+/* RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*ESTILOS GENERALES*/
+
+body {
+    color: #2B2B2B;
+    background-color: #E6E6DD;
+}
+
+
+header {
+    background-color: #2B2B2B;
+    color: #E6E6DD;
+    margin: 0px 50px;
+    padding: 10px; /*generar espacio interno de los elementos del header*/
+
+    display: flex;
+    justify-content: center; /*horizontal*/
+    align-items: center; /*vertical*/
+
+    box-shadow: 10px 10px 40px black; /*valores positivos hacia abajo y derecha, valores negativos hacia arriba y a la izquierda*/
+}
+
+header img {
+    width: 30%;
+}
+
+header nav {
+    margin-right: 30px;
+}
+
+header nav ul {
+    list-style: none; /*sacar viñetas*/
+    display: flex;
+    gap: 10px; /*va a funcionar siempre que la etiqueta este declarada como flex*/
+
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+main .img{
+    display: flex;
+    justify-content: center;
+}
+
+main .img img {
+    width: 50px;
+
+}
+
+main .textos {
+    text-align: center;
+}
+
+main .textos h1 {
+    margin: 10px 0px;
+}
+
+main .textos h1 span {
+    display: block;
+}
+
+main .textos .boton {
+    background-color: #2B2B2B;
+    color: #E6E6DD;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+
+/*ESTILOS DE SECTION*/
+
+section {
+    background-color: #2B2B2B;
+    color: #E6E6DD;
+    padding: 30px;
+    margin: 0px 50px;
+
+    display: flex;
+    flex-wrap: wrap; /*para que el contenido se adapte a la pantalla, los coloca de manera vertical*/
+    justify-content: center;
+
+}
+
+section div{
+    text-align: center;
+}
+
+section div h2{
+    margin: 10px;
+}
+
+section div img {
+    width: 50%;
+}
+
+/*ESTILOS DE FOOTER*/
+
+footer {
+    text-align: center;
+    margin-top: 10px;
+
+}
